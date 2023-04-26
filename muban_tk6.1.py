@@ -28,14 +28,14 @@ def mubandy(xm,xb,nl,ch,zyh,zubie,bq):
     if zubie==3:
         daican='麦孚畅清全营养配方粉'
         tongbian='益三联畅达'
-        jzys='FCY'
+        jzys='方臣阳'
     else:
         daican='永瑞清'
         tongbian = '小麦纤维素颗粒（非比麸）'
         if zubie==1:
-            jzys = 'PYN'
+            jzys = '裴艳妮'
         else:
-            jzys = 'CY'
+            jzys = '陈勇'
     try:
         close_word()
     except:
@@ -267,40 +267,6 @@ a3.place(x=120,y=210)
 v.set(1)
 print(v)
 
-# CheckVar1 = IntVar()
-# CheckVar2 = IntVar()
-# C1 = Checkbutton(window, text = "RUNOOB", variable = CheckVar1, onvalue = 1, offvalue = 0)
-# C2 = Checkbutton(window, text = "GOOGLE", variable = CheckVar2, onvalue = 1, offvalue = 0)
-# C1.place(x=0,y=210)
-# CheckVar2.set(1)
-# C2.place(x=60,y=210)
-# print(CheckVar1,CheckVar2)
-# vvv=CheckVar1.get()
-# print(vvv)
-
-
-# list1 = ['李白', '杜甫', '李清照', '唐伯虎', '王昭君', '西施']
-# v = []
-#
-# for i in range(len(list1)):
-#     v.append(IntVar())
-#     check = Checkbutton(window, text=list1[i], variable=v[-1])
-#     check.place(x=i*60,y=210)
-
-
-
-
-
-#显示v的值
-# l = tk.Label(window,textvariable=v)
-# l.place(x=120,y=180)
-
-
-
-# l_zd=tk.Label(window,text='诊断')
-# l_zd.place(x=0,y=180)
-# e_zd=tk.Entry(window)
-# e_zd.place(x=60,y=180)
 
 b0=tk.Button(window,text='填写',command=fill)
 b0.place(x=220,y=40,width=60,height=25)
