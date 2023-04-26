@@ -303,16 +303,16 @@ print(v)
 # e_zd.place(x=60,y=180)
 
 b0=tk.Button(window,text='填写',command=fill)
-b0.pack(anchor=SE)
+b0.place(x=220,y=40,width=60,height=25)
 
 b=tk.Button(window,text='打印全部',command=get_info)
-b.pack(anchor=SE)
+b.place(x=220,y=70,width=60,height=25)
 
 b1=tk.Button(window,text='选择打印',command=get_info2)
-b1.pack(anchor=SE)
+b1.place(x=220,y=100,width=60,height=25)
 
 b2=tk.Button(window,text='清空',command=erase)
-b2.pack(anchor=SE)
+b2.place(x=220,y=130,width=60,height=25)
 
 
 
