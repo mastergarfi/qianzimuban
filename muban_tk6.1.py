@@ -28,14 +28,14 @@ def mubandy(xm,xb,nl,ch,zyh,zubie,bq):
     if zubie==3:
         daican='麦孚畅清全营养配方粉'
         tongbian='益三联畅达'
-        jzys='方臣阳'
+        jzys='FCY'
     else:
         daican='永瑞清'
         tongbian = '小麦纤维素颗粒（非比麸）'
         if zubie==1:
-            jzys = '裴艳妮'
+            jzys = 'PYN'
         else:
-            jzys = '陈勇'
+            jzys = 'CY'
     try:
         close_word()
     except:
